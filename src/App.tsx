@@ -1,12 +1,26 @@
-import './App.css'
+import Hero from "./Components/Hero";
+import Results from "./Components/Results";
+import Tips from "./Components/Tips";
+import Limitations from "./Components/Limitations";
+
+import "./App.css";
 
 function App() {
-
   return (
     <>
-      <div className='text-blue-300 bg-red-600 w-[100vw]'>Herllinj</div>
+      <div className="flex flex-col">
+        <main>
+          <Hero />
+          <Results />
+          <Tips />
+          <Limitations />
+        </main>
+        <footer className="flex justify-center items-center h-16 bg-gray-800 text-white">
+          <p className="max-sm:text-[12px]">© 202 4 BMI Calculator created by Kurt Badillo</p>
+        </footer>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
