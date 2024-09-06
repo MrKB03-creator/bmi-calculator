@@ -4,7 +4,7 @@ const Results = () => {
   return (
     <div>
       <div className="flex flex-row w-auto mx-[140px] my-[96px] h-auto justify-between items-center  max-lg:mx-[120px] md:mx-[80px]  max-sm:flex-col max-sm:m-10 relative max-sm:mt-0">
-        <div className="absolute -top-24 right-24  w-14 lg:right-5 lg:h-auto md:right-1 max-sm:hidden">
+        <div className="absolute -top-24 right-24  w-14 lg:right-5 lg:h-auto lg:block md:hidden max-sm:hidden">
           <img src={patternCurvedLeft} alt="pattern Curved Right" className="h-auto w-auto"/>
         </div>
         <section className="w-1/2 max-sm:w-full">
