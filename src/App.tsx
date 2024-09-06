@@ -16,7 +16,7 @@ function App() {
           <Limitations />
         </main>
         <footer className="flex justify-center items-center h-16 bg-gray-800 text-white">
-          <p className="max-sm:text-[12px]">© 202 4 BMI Calculator created by Kurt Badillo</p>
+          <p className="max-sm:text-[12px]">© 2024 BMI Calculator created by Kurt Badillo</p>
         </footer>
       </div>
     </>
